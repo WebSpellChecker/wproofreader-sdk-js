@@ -1,0 +1,8 @@
+{
+  "name": "@webspellchecker/wproofreader-sdk-js",
+  "version": "0.0.1",
+  "description": "WProofreader SDK package to simplify the integration into modern JavaScript applications.",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  }
+}
