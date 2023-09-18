@@ -2,11 +2,46 @@
   "name": "@webspellchecker/wproofreader-sdk-js",
   "version": "0.0.1",
   "description": "WProofreader SDK package to simplify the integration into modern JavaScript applications.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebSpellChecker/wproofreader-sdk-js.git"
+  },
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint --quiet .",
     "test": "node ./node_modules/karma/bin/karma start"
   },
+  "author": "WebSpellChecker (https://webspellchecker.com/)",
+  "bugs": {
+    "url": "https://github.com/WebSpellChecker/wproofreader-sdk-js/issues"
+  },
+  "homepage": "https://github.com/WebSpellChecker/wproofreader-sdk-js#readme",
+  "license": "Apache-2.0",
+  "files":[
+    "src"
+  ],
+  "keywords": [
+    "WProofreader",
+    "WebSpellChecker",
+    "grammar check",
+    "artificial intelligence",
+    "AI",
+    "spell check",
+    "spelling",
+    "proofreading",
+    "multilingual support",
+    "writing assistance",
+    "style check",
+    "API",
+    "SDK",
+    "plugin",
+    "JavaScript",
+    "Angular",
+    "Vue.js",
+    "React",
+    "real-time correction",
+    "rich text editor"
+  ],
   "devDependencies": {
     "chai": "^4.3.8",
     "eslint": "^8.49.0",
