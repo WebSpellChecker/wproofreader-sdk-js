@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "WProofreader SDK package to simplify the integration into modern JavaScript applications.",
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint --quiet .",
     "test": "echo \"No test specified\" && exit 0"
   },
