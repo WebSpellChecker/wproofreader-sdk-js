@@ -12,6 +12,7 @@ module.exports = (config) => {
 		// List of files / patterns to load in the browser.
 		files: [
 			'tests/test.js',
+			{ pattern: 'tests/mocks/*.js', included: false, served: true }
 		],
 
 		// Preprocess matching files before serving them to the browser.
