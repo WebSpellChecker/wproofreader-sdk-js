@@ -1,6 +1,6 @@
 {
   "name": "@webspellchecker/wproofreader-sdk-js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "WProofreader SDK package to simplify the integration into modern JavaScript applications.",
   "repository": {
     "type": "git",
