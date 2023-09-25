@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/WebSpellChecker/wproofreader-sdk-js#readme",
   "license": "Apache-2.0",
-  "files":[
+  "main": "src/wproofreadersdk.js",
+  "files": [
     "src"
   ],
   "keywords": [
