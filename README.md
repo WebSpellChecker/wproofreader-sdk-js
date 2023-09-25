@@ -23,7 +23,7 @@ npm install @webspellchecker/wproofreader-sdk-js
 
 2. Define global configuration. Regardless of your chosen initialization method, you'll need to configure the SDK globally. Use the `configure` method to set general options. Detailed descriptions of all available customization options can be found in the [documentation](https://webspellchecker.com/docs/api/wscbundle/Options.html).
 
-	Please note that the configure method needs to be called in the file that initializes the application.
+	Please note that the `configure` method needs to be called in the file that initializes the application.
 
 	```js
 	WProofreaderSDK.configure({
@@ -36,9 +36,9 @@ npm install @webspellchecker/wproofreader-sdk-js
 
 3. Choose the initialization method. After setting general options, proceed to initialize the SDK using one of the methods below.
 
-	#### Option A: Using ‘autoSearch’ option
+	#### Option A: Using `autoSearch` option
 
-	Automatically enable WProofreader when an editable container gains focus. Add `autoSearch: true` to your configure method if you haven't already.
+	Automatically enable WProofreader when an editable container gains focus. Add `autoSearch: true` to your `configure` method if you haven't already.
 
 	```js
 	WProofreaderSDK.configure({
@@ -48,7 +48,7 @@ npm install @webspellchecker/wproofreader-sdk-js
 	});
 	```
 
-	#### Option B: Using ‘data-wsc-autocreate’ data attribute
+	#### Option B: Using `data-wsc-autocreate` data attribute
 
 	Add the `data-wsc-autocreate="true"` attribute to your editable container (e.g. textarea) to initialize WProofreader automatically with the page load (no need to set the focus). This must be applied to static elements that are part of the initial HTML markup. 
 	
@@ -60,7 +60,7 @@ npm install @webspellchecker/wproofreader-sdk-js
 
 	#### Option С: Using `init` method
 
-	Use init method to inialize WProofreader in a container. You can specify the other configuration options for the local initialization if needed. Or skip using configure method all together and set all the options directly in the init method.
+	Use `init` method to inialize WProofreader in a container. You can specify the other configuration options for the local initialization if needed. Or skip using `configure` method all together and set all the options directly in the `init` method.
 
 	```js
 	WProofreaderSDK.init({
@@ -117,4 +117,4 @@ For technical support or inquiries, reach out to us directly if you hold an acti
 To report bugs or issues, please use the GitHub Issues section of the [WProofreader SDK repository](https://github.com/WebSpellChecker/wproofreader). When reporting an issue, kindly provide steps to reproduce it, and mention the browser and integration where the issue occurred.
 
 ## License
-The source code in this repository is licensed under the Apache 2.0 license. Please note that while the code is open-source, the usage of the WProofreader service is governed by separate terms. Refer to the LICENSE.md for detailed licensing information and related links.
+The source code in this repository is licensed under the Apache 2.0 license. Please note that while the code is open-source, the usage of the WProofreader service is governed by separate [terms](https://webspellchecker.com/legal/). Refer to the [LICENSE.md](https://github.com/WebSpellChecker/wproofreader-sdk-js/blob/master/LICENSE.md) for detailed licensing information and related links.
