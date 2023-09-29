@@ -6,6 +6,8 @@ Visit the [WProofreader SDK repository](https://github.com/WebSpellChecker/wproo
 
 Find below the instructions that will guide you in easily integrating this functionality into your applications.
 
+This repository also offers examples of WProofreader SDK integrated with rich text editors such as CKEditor 4, TinyMCE, Froala, and Quill in frameworks like Vue.js, React, and Angular. Browse the [examples](https://github.com/WebSpellChecker/wproofreader-sdk-js/tree/master/examples) directory and see each README for setup details.
+
 ## Installation
 
 To add WProofreader SDK to your project, install the npm module using the following command.
