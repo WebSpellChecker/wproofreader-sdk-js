@@ -1,4 +1,4 @@
-# WProofreader SDK & CKEditor 4 example in Angular
+# WProofreader SDK & CKEditor 4 Editor example in Angular
 
 This example demonstrates how to integrate [WProofreader SDK](https://www.npmjs.com/package/@webspellchecker/wproofreader-sdk-js) with [CKEditor4 WYSIWYG Editor](https://ckeditor.com/ckeditor-4/) within a [Angular](https://angular.io/) application.
 
@@ -9,7 +9,7 @@ For a detailed guide on initializing and configuring WProofreader SDK in any Jav
 * Ensure your Node.js version is `^16.14.0 || >=18.10.0`. You can check your version with the command `node -v`.
 
 ## Setup
-1. Go to the `app.module.ts` file and locate the configure method. Specify your `serviceId` if you are testing a [cloud service](https://github.com/WebSpellChecker/wproofreader-sdk-js#for-the-cloud-based-version) or backend endpoint for the [self-hosted product version](https://github.com/WebSpellChecker/wproofreader-sdk-js#for-the-server-version). 
+1. Go to the `app.module.ts` file and locate the `configure` method. Specify your `serviceId` if you are testing a [cloud service](https://github.com/WebSpellChecker/wproofreader-sdk-js#for-the-cloud-based-version) or backend endpoint for the [self-hosted product version](https://github.com/WebSpellChecker/wproofreader-sdk-js#for-the-server-version). 
 
 2. Execute the following commands in your terminal to initialize and start the project.
 
