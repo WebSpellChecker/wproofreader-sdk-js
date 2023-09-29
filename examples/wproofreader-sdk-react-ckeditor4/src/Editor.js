@@ -8,7 +8,9 @@ function Editor() {
 		<CKEditor
 			initData={text}
 			onInstanceReady={ ( { editor } ) => {
-				WProofreaderSDK.init({container: editor.window.getFrame() ? editor.window.getFrame().$ : editor.element.$});
+				WProofreaderSDK.init({
+					container: editor.window.getFrame() ? editor.window.getFrame().$ : editor.element.$
+				});
 			}}
 		/>
 	);
