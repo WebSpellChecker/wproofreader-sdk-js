@@ -19,8 +19,10 @@
   "license": "Apache-2.0",
   "main": "src/wproofreadersdk.js",
   "files": [
-    "src"
+    "src",
+    "index.d.ts"
   ],
+  "types": "index.d.ts",
   "keywords": [
     "WProofreader",
     "WebSpellChecker",
