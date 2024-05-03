@@ -1,5 +1,9 @@
 # WProofreader SDK JavaScript Changelog
 
+## 1.1.0 – 2024-05-03
+
+* Added basic TypeScript support.
+
 ## 1.0.2 – 2023-09-29
 
 * Added examples of WProofreader SDK integration with rich text editors such as CKEditor 4, TinyMCE, Froala, and Quill in Vue.js, React and Angular frameworks.
