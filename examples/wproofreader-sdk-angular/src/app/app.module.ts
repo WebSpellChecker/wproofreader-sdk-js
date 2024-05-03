@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-//@ts-ignore
 import WProofreaderSDK from '@webspellchecker/wproofreader-sdk-js';
 
 import { AppComponent } from './app.component';
