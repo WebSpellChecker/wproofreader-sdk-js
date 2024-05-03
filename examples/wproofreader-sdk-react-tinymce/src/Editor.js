@@ -12,6 +12,7 @@ function Editor() {
 
 	return (
 		<TinyMCE
+			apiKey="no-api-key"
 			initialValue={text}
 			onInit={onInstanceReady}
 		/>

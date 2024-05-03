@@ -21,6 +21,7 @@ export default {
 
 <template>
 	<TinyMCE
+		api-key="no-api-key"
 		:initialValue="text"
 		:init="{
 			init_instance_callback: initCallback
