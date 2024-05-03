@@ -62,7 +62,7 @@ npm install @webspellchecker/wproofreader-sdk-js
 
 	#### Option С: Using `init` method
 
-	Use `init` method to inialize WProofreader in a container. You can specify the other configuration options for the local initialization if needed. Or skip using `configure` method all together and set all the options directly in the `init` method.
+	Use `init` method to initialize WProofreader in a container. You can specify the other configuration options for the local initialization if needed. Or skip using `configure` method all together and set all the options directly in the `init` method.
 
 	```js
 	WProofreaderSDK.init({
@@ -104,7 +104,7 @@ npm install @webspellchecker/wproofreader-sdk-js
 ## Features
 * AI-powered sentence checker for multilingual spelling, grammar, and style check with enhanced accuracy in 20+ languages, including English, German, and Spanish.
 * Flags non-inclusive or profane English terms, suggesting unbiased alternatives.
-* Combines spelling autocorrector and autocomplete suggestions for quicker and error-free writing, primarily in English dialects.
+* Combines spelling autocorrect and autocomplete suggestions for quicker and error-free writing, primarily in English dialects.
 * Ensures data security with on-premise deployment options and allows user-centric customization including theme and language settings.
 * Enables the creation of custom dictionaries and industry-specific vocabularies, providing users with more accurate results.
 * Complies with WCAG 2.1 and Section 508 standards, featuring an accessible interface with real-time proofreading and keyboard navigation options.
