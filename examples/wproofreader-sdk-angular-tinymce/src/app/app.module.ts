@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { EditorModule } from '@tinymce/tinymce-angular';
-//@ts-ignore
 import WProofreader from '@webspellchecker/wproofreader-sdk-js';
 
 import { AppComponent } from './app.component';
