@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FroalaEditorModule, FroalaViewModule } from 'angular-froala-wysiwyg';
-//@ts-ignore
 import WProofreader from '@webspellchecker/wproofreader-sdk-js';
 
 import { AppComponent } from './app.component';
