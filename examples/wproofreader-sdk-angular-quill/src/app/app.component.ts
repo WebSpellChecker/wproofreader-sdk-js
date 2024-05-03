@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import Quill from 'quill';
-//@ts-ignore
 import WProofreader from '@webspellchecker/wproofreader-sdk-js';
 
 @Component({

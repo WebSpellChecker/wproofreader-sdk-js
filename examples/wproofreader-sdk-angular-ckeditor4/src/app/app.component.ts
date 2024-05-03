@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CKEditor4 } from 'ckeditor4-angular/ckeditor';
-//@ts-ignore
 import WProofreader from '@webspellchecker/wproofreader-sdk-js';
 
 @Component({

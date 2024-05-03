@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FroalaEditorDirective } from 'angular-froala-wysiwyg';
-//@ts-ignore
 import WProofreader from '@webspellchecker/wproofreader-sdk-js';
 
 @Component({
