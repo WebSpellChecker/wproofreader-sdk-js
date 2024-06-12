@@ -1,5 +1,9 @@
 # WProofreader SDK JavaScript Changelog
 
+## 1.1.1 – 2024-06-12
+
+Internal changes (updated dependencies, documentation, examples, etc.).
+
 ## 1.1.0 – 2024-05-03
 
 * Added basic TypeScript support.
