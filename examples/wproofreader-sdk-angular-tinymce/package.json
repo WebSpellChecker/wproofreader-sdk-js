@@ -19,7 +19,7 @@
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
     "@tinymce/tinymce-angular": "^7.0.0",
-    "@webspellchecker/wproofreader-sdk-js": "^1.0.1",
+    "@webspellchecker/wproofreader-sdk-js": "^1.1.0",
     "install": "^0.13.0",
     "npm": "^10.1.0",
     "rxjs": "~7.8.0",

@@ -2,6 +2,8 @@
 
 WProofreader SDK empowers your web applications with real-time multilingual spelling, grammar, and style checks. The SDK integrates seamlessly with rich text editors and text fields across various platforms, including those developed using popular JavaScript frameworks like Angular, React, and Vue.js. It offers users instant correction suggestions as they type or within a dedicated dialog. 
 
+Starting from version 1.1.0, WProofreader SDK JavaScript offers basic TypeScript support. The package includes the [type definition file](https://github.com/WebSpellChecker/wproofreader-sdk-js/blob/master/index.d.ts) (.d.ts) for the [WProofreader core methods](https://webspellchecker.com/docs/api/wscbundle/WEBSPELLCHECKER.html) and additional methods for the NPM package itself, covering initialization, configuration, and instance management. For integration of WProofreader SDK using TypeScript, refer to the [Angular example](https://github.com/WebSpellChecker/wproofreader-sdk-js/tree/master/examples/wproofreader-sdk-angular).
+
 Visit the [WProofreader SDK repository](https://github.com/WebSpellChecker/wproofreader) or the [official web page](https://webspellchecker.com/wsc-proofreader/) for more detailed information.
 
 Find below the instructions that will guide you in easily integrating this functionality into your applications.

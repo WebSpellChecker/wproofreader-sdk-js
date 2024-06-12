@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { EventObj } from '@tinymce/tinymce-angular/editor/Events';
 import { Editor as TinyMCE } from 'tinymce';
-//@ts-ignore
 import WProofreader from '@webspellchecker/wproofreader-sdk-js';
 
 @Component({
