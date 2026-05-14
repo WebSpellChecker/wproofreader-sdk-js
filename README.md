@@ -67,10 +67,14 @@ npm install @webspellchecker/wproofreader-sdk-js
 	Use `init` method to initialize WProofreader in a container. You can specify the other configuration options for the local initialization if needed. Or skip using `configure` method all together and set all the options directly in the `init` method.
 
 	```js
-	WProofreaderSDK.init({
-		container: document.getElementById('container')
-		// Additional options here
-	});
+	WProofreaderSDK
+		.init({
+			container: document.getElementById('container')
+			// Additional options here
+		})
+		.then(instance => {
+			// instance - the WEBSPELLCHECKER instance
+		});
 	```
 
 	It’s recommended to use this initialization method in a bundle with the `autoSearch` option if the page will be dynamically modified. 
