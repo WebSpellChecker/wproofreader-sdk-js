@@ -1,5 +1,9 @@
 # WProofreader SDK JavaScript Changelog
 
+## 1.1.2 – 2026-05-14
+
+Internal changes (updated dependencies, documentation, examples, etc.).
+
 ## 1.1.1 – 2024-06-12
 
 Internal changes (updated dependencies, documentation, examples, etc.).
