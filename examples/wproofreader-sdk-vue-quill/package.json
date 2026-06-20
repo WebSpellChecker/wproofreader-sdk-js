@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vueup/vue-quill": "^1.2.0",
-    "@webspellchecker/wproofreader-sdk-js": "^1.0.1",
+    "@webspellchecker/wproofreader-sdk-js": "^1.1.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
