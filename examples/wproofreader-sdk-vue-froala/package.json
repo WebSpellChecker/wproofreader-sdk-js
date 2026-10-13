@@ -10,7 +10,7 @@
   "dependencies": {
     "@webspellchecker/wproofreader-sdk-js": "^1.0.1",
     "froala-editor": "^4.1.1",
-    "vue": "^3.3.4",
+    "vue": "^3.5.44",
     "vue-froala-wysiwyg": "^4.1.1"
   },
   "devDependencies": {
